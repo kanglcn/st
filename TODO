@@ -26,3 +26,6 @@ misc
 
     $ grep -nE 'XXX|TODO' st.c
 
+kanglcn
+-------
+* patch Luke's patch
