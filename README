@@ -32,3 +32,20 @@ Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
+Notes
+-------
+alpha is a patches allowing change the opacity of the background.
+anysize make st fill the entire space allocated to it.
+copyurl enable user to copy the last URL displayed with Ctrl+Shift+l. This may be modified to other key binding in the future.
+desktopentry creates a desktop entry and a icon for st.
+dracula is a colorscheme.
+hidecusor is used to hide the cusor when user is inputting.
+scrollback is used to scrollback through terminal output. There are some issueshere I think.
+
+Keys bindings
+-------
+{ TERMMOD,              XK_B,           kscrollup,      {.i = -1} },
+{ TERMMOD,              XK_F,           kscrolldown,    {.i = -1} },
+{ TERMMOD,              XK_U,           kscrollup,      {.i = 20} },
+{ TERMMOD,              XK_D,           kscrolldown,    {.i = 20} },
+{ TERMMOD,              XK_L,           copyurl,        {.i =  0} },
